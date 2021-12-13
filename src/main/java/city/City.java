@@ -52,7 +52,6 @@ public class City {
         return highestBuilding;
     }
 
-    //---Akkor fordul le, ha List-et importálok a tesztbe :( ez nem ment....
     public List<Building> findBuildingsByStreet(String street) {
         List<Building> buildingList = new ArrayList<>();
         for (Building building : buildings) {
